@@ -1,0 +1,231 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* header css start */
+header{
+  height: 13vh;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0;
+  z-index: 1;
+  top: 0;
+}
+
+.menu-list-responsive{
+  display: none;
+}
+
+.icon{
+  margin-right: auto;
+}
+
+.icon-img{
+  width: auto;
+  height: 13vh;
+  padding: 1vh 2vw;
+}
+
+.menu-list{
+  display: flex;
+  box-shadow: 5px 0 10px;
+}
+
+.menu-list-text{
+  padding: 0 2vw;
+  margin-top: 5vh;
+  font-size: calc(5px + 1em);
+}
+
+.menu-list-button{
+  text-decoration: none;
+}
+
+.menu-list-button:link{
+  color: rgb(85, 85, 85);
+}
+
+.menu-list-button:visited{
+  color: rgb(85, 85, 85);
+}
+
+.menu-button-icon{
+  font-size: 3em;
+  color: rgb(104, 104, 104);
+  padding: 5px;
+  float: left;
+}
+
+.menu-link{
+  float: right;
+  width: 200px;
+  height: 100vh;
+  background-color: #000;
+  text-align: center;
+}
+
+.menu-link{
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  transition: left .5s, right .5s;
+  background-color: #000;
+  text-align: center;
+}
+
+.icon-img-responsive{
+  width: 180px;
+  height: auto;
+  padding: 10vh 0;
+}
+
+.menu-link-text{
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 5vh;
+}
+
+#open{
+  display: none;
+}
+
+#open:checked + .menu-link{
+  right: 0;
+}
+/* header css end */
+
+/* all css */
+.main{
+  padding-top: 13vh;
+  text-align: center;
+}
+
+.main-title{
+  font-size: calc(12px + 2vw);
+  padding: 1vh 0;
+}
+
+/* login.php css start*/
+.login{
+  padding-bottom: 10px;
+}
+
+.login-text{
+  font-size: calc(10px + 0.5vw);
+}
+
+.login-input{
+  height: 5vh;
+  width: 30%;
+  font-size: calc(10px + 0.6em);
+  padding: 5px;
+  text-align: center;
+}
+
+.error{
+  color: red;
+  margin: 5px 0 0 0;
+  font-size: calc(10px + 0.5vw);
+}
+
+.login-checkbox{
+  padding-top: 20px;
+}
+
+.login-submit{
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  display: block;
+}
+
+.login-submit:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* login.php css end*/
+
+/* postdisplay.php css start */
+.alldisplay{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.alldisplay-block{
+  padding-bottom: 10px;
+}
+
+.alldisplay-block-name{
+  color: rgb(231, 46, 0);
+  text-align-last: left;
+}
+
+.alldisplay-block-menu_name{
+  background-color: rgb(0, 221, 66);
+}
+
+.alldisplay-block-img{
+  width: 50%;
+  height: auto;
+}
+/* postdisplay.php css end */
+
+/* view.php css start */
+.main-block{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail{
+  padding-bottom: 10px;
+}
+
+.detail-name{
+  color: rgb(231, 46, 0);
+  text-align-last: left;
+}
+
+.detail-menu_name{
+  background-color: rgb(0, 221, 66);
+}
+
+.detail-plus{
+  padding-bottom: 5vw;
+}
+
+.detail-img{
+  width: 50%;
+  height: auto;
+}
+
+.detail-table{
+  border: 2px solid #000;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail-table-cell{
+  border: 2px solid #000;
+  padding: 1vw;
+}
+
+.cell-title{
+  width: 30%;
+  background-color: rgba(129, 129, 129, 0.3);
+}
+
+.return-display{
+  text-align: right;
+}
+/* view.php css end */

@@ -1,0 +1,194 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* header css start */
+header{
+  height: 13vh;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0;
+  z-index: 1;
+  top: 0;
+}
+
+.menu-list-responsive{
+  display: none;
+}
+
+.icon{
+  margin-right: auto;
+}
+
+.icon-img{
+  width: auto;
+  height: 13vh;
+  padding: 1vh 2vw;
+}
+
+.menu-list{
+  display: flex;
+  box-shadow: 5px 0 10px;
+}
+
+.menu-list-text{
+  padding: 0 2vw;
+  margin-top: 5vh;
+  font-size: calc(5px + 1em);
+}
+
+.menu-list-button{
+  text-decoration: none;
+}
+
+.menu-list-button:link{
+  color: rgb(85, 85, 85);
+}
+
+.menu-list-button:visited{
+  color: rgb(85, 85, 85);
+}
+
+.menu-button-icon{
+  font-size: 3em;
+  color: rgb(104, 104, 104);
+  padding: 5px;
+  float: left;
+}
+
+.menu-link{
+  float: right;
+  width: 200px;
+  height: 100vh;
+  background-color: #000;
+  text-align: center;
+}
+
+.menu-link{
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  transition: left .5s, right .5s;
+  background-color: #000;
+  text-align: center;
+}
+
+.icon-img-responsive{
+  width: 180px;
+  height: auto;
+  padding: 10vh 0;
+}
+
+.menu-link-text{
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 5vh;
+}
+
+#open{
+  display: none;
+}
+
+#open:checked + .menu-link{
+  right: 0;
+}
+/* header css end */
+
+/* all css */
+.main{
+  padding-top: 13vh;
+  text-align: center;
+}
+
+.main-title{
+  font-size: calc(12px + 2vw);
+  padding: 1vh 0;
+}
+
+/* index.php css start */
+.register{
+  padding-bottom: 10px;
+}
+
+.register-text{
+  font-size: calc(10px + 0.5vw);
+}
+
+.register-input{
+  height: 5vh;
+  width: 30%;
+  font-size: calc(10px + 0.6em);
+  padding: 5px;
+  text-align: center;
+}
+
+.required{
+  color: red;
+}
+
+.error{
+  color: red;
+  margin: 5px 0 0 0;
+  font-size: calc(10px + 0.5vw);
+}
+
+.register-submit{
+  margin-top: 30px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.register-submit:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* index.php css end */
+
+/* check.php css start */
+.confirm{
+  padding-bottom: 10px;
+}
+
+.confirm-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirm-button-rewrite{
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.confirm-button-rewrite:link{
+  color: #000;
+}
+
+.confirm-button-rewrite:visited{
+  color: #000;
+}
+
+.confirm-button-register{
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.confirm-button-register:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* check.php css end */

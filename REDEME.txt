@@ -1,0 +1,28 @@
+欲しい機能
+・ログインができる
+・ログアウトができる
+・晩御飯を投稿できる
+・今までの投稿を閲覧することができる
+・投稿を編集することができる
+
+DB
+Banmeshi
+ members
+  ・メンバーID             id
+  ・名前（ニックネーム）    name
+  ・メールアドレス         email
+  ・パスワード             password
+
+ posts
+  ・晩御飯のID　　　　　　　dinner_id
+  ・投稿者のID             id
+  ・メニュー名             menu_name
+  ・材料                  ingredient
+  ・レシピ                recipe
+  ・メモ                  memo
+  ・写真                  picture
+
+ 共通
+  ・投稿日
+  ・編集日
+

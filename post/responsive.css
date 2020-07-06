@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px) {
+  /* header css start */
+  header{
+    height: 0;
+  }
+
+  .menu-list{
+    display: none;
+  }
+
+  .menu-list-responsive{
+    display: block;
+  }
+
+  .menu-list-button:link{
+    color: rgb(206, 206, 206);
+  }
+  
+  .menu-list-button:visited{
+    color: rgb(206, 206, 206);
+  }
+  /* header css end */
+}
+
+@media screen and (max-width: 480px) {
+  /* index.php css start */
+  .cookpost-input{
+    width: 80%;
+  }
+
+  .cookpost-textarea{
+    width: 80%;
+  }
+  /* index.php css end */
+
+  /* check.php css start */
+  .confirm-img{
+    width: 100%;
+  }
+  /* check.php css end */
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 1000px) {
+  /* header css start */
+  header{
+    height: 0;
+  }
+
+  .menu-list{
+    display: none;
+  }
+
+  .menu-list-responsive{
+    display: block;
+  }
+
+  .menu-list-button:link{
+    color: rgb(206, 206, 206);
+  }
+  
+  .menu-list-button:visited{
+    color: rgb(206, 206, 206);
+  }
+  /* header css end */
+
+  /* login.php css start */
+  .login-input{
+    width: 80%;
+  }
+  /* login.php css end */
+}
+
+@media screen and (max-width: 480px) {
+  /* postdisplay.php css start */
+  .alldisplay-block-img{
+    width: 100%;
+  }
+  /* postdisplay.php css end */
+
+  /* view.php css start */
+  .detail-img{
+    width: 100%;
+  }
+  /* view.php css end */
+}
